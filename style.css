@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+}
+.header {
+  background: #ffd43b;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header > h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 60px;
+  text-shadow: 3px 5px #183153;
+}
+.main {
+  background: #183153;
+  height: 75vh;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.mainTop {
+  background-color: balck;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.mainBot {
+  background-color: balck;
+  height: 40%;
+}
+#scoreText {
+  text-align: center;
+  font-size: 50px;
+  color: #ffd43b;
+  text-shadow: 3px 4px #0e2039;
+  margin: 20px 0 30px 0;
+}
+.score-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-top: 30px;
+  max-width: 400px;
+  margin: 30px auto;
+  gap: 20px;
+}
+.sign {
+  font-size: 80px;
+  color: #ffd43b;
+  font-weight: 900;
+  text-shadow: 3px 4px #0e2039;
+}
+.score {
+  font-size: 22px;
+  color: #ffd43b;
+  text-shadow: 3px 4px #0e2039;
+  font-weight: bold;
+}
+.left {
+  text-align: center;
+  width: 170px;
+}
+.right {
+  width: 170px;
+  text-align: center;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choiceBox {
+  width: 160px;
+  height: 160px;
+  background: #0e2039;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.choiceBox:active {
+  box-shadow: 0 5px #0e2039;
+  transform: translateY(4px);
+}
+.choiceBox:hover {
+  background: #0b1626;
+}
+.choiceBox .sign {
+  margin-top: 30px;
+}
+.footer {
+  height: 10vh;
+  background: #ffd43b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerText {
+  font-size: 20px;
+}
+.fa-github {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.fa-github:hover {
+  font-size: 24px;
+  transform: rotate(90deg);
+}
+.middle {
+  background: #0e2039;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#clear {
+  color: #ffd43b;
+  font-size: 30px;
+  transition: all 0.5s;
+  padding: 20px;
+}
+#clear:hover {
+  font-size: 35px;
+  transform: rotate(90deg);
+}
+.middle:active {
+  box-shadow: 0 5px #0e2039;
+  transform: translateY(4px);
+}
+.middle:hover {
+  background: #0b1626;
+}

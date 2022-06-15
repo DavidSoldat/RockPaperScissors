@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    </style>
+    <script
+      src="https://kit.fontawesome.com/c6327cf6d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+    <div class="main">
+      <div class="mainTop">
+        <h1 id="scoreText">Play the game!</h1>
+        <div class="score-box">
+          <div class="left">
+            <div class="sign" id="player">?</div>
+            <p class="score">Player: <span id="scorePlayer">0</span></p>
+          </div>
+          <div class="middle">
+            <i class="fa-solid fa-rotate-right" id="clear"></i>
+          </div>
+          <div class="right">
+            <div class="sign" id="computer">?</div>
+            <p class="score">Computer: <span id="scoreComputer">0</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="mainBot">
+        <div class="choices">
+          <div class="choiceBox"><div class="sign" id="rock">✊</div></div>
+          <div class="choiceBox"><div class="sign" id="paper">✋</div></div>
+          <div class="choiceBox"><div class="sign" id="scissors">✌</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="footerText">
+        Copyright&copy; 2022 DavidSoldat
+        <a href="https://github.com/DavidSoldat" target="_blank" class="link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
