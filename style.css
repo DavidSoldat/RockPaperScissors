@@ -52,10 +52,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-  margin-top: 30px;
   max-width: 400px;
-  margin: 30px auto;
+  margin: auto;
   gap: 20px;
 }
 .sign {
@@ -63,6 +61,7 @@ body {
   color: #ffd43b;
   font-weight: 900;
   text-shadow: 3px 4px #0e2039;
+  padding: 30px 0;
 }
 .score {
   font-size: 22px;
@@ -99,9 +98,7 @@ body {
 .choiceBox:hover {
   background: #0b1626;
 }
-.choiceBox .sign {
-  margin-top: 30px;
-}
+
 .footer {
   height: 10vh;
   background: #ffd43b;
